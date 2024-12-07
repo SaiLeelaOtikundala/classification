@@ -1,6 +1,6 @@
+import matplotlib.pyplot as plt
 # Plotting training & validation loss
 plt.figure(figsize=(12, 6))
-
 # Plot the loss
 plt.subplot(1, 2, 1)  # 1 row, 2 columns, first subplot
 plt.plot(history.history['loss'], label='Train Loss')
