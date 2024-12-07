@@ -1,3 +1,5 @@
+import numpy as np
+import pandas as pd
 df=pd.read_csv("/kaggle/input/cifar10-python-in-csv/train.csv")
 print(df.head())
 print(df.columns)
