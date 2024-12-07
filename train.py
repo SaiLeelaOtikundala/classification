@@ -1,3 +1,7 @@
+from tensorflow import keras
+from sklearn.model_selection import train_test_split
+from tensorflow.keras.utils import to_categorical
+
 x_train, x_test, y_train, y_test = train_test_split(images, label_data, test_size=0.2, random_state=42)
 
 x_train = np.transpose(x_train, (0, 2, 3, 1))  # Convert to (batch_size, 32, 32, 3)
