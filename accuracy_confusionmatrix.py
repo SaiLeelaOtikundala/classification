@@ -1,3 +1,7 @@
+import numpy as np
+import pandas as pd
+import matplotlib.pyplot as plt
+
 def evaluate_model(y_true, y_pred, class_names=None):
     """
     Evaluates the model using accuracy, classification report, and confusion matrix. 
