@@ -24,4 +24,4 @@ def evaluate_model(y_true, y_pred, class_names=None):
     plt.ylabel('True Label')
     plt.show()
 # Assuming y_test is your true labels and predicted_labels are the model's predictions
-evaluate_model(np.argmax(y_test, axis=1), predicted_labels, class_names=['Class 0', 'Class 1', 'Class 2', 'Class 3', 'Class 4', 'Class 5', 'Class 6', 'Class 7', 'Class 8','Class 9'])
+evaluate_model(np.argmax(y_test, axis=1), predicted_labels, class_names=['Airplane', 'Automobile', 'Bird', 'Cat', 'Deer', 'Dog', 'Frog', 'Horse', 'Ship', 'Truck'])
