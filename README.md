@@ -14,6 +14,6 @@ The image of the predicted label and true label is given below.
 
 ![image](https://github.com/user-attachments/assets/0a95d459-af80-4a1d-aa3d-630fb4f629ce)
 
-Accuracy and Validation loss graphs are presented below.
+Accuracy and Loss graphs are presented below.
 
 ![image](https://github.com/user-attachments/assets/ec352674-ae54-408e-bc35-9c200c9cce44)
