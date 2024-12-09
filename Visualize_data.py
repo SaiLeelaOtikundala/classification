@@ -1,6 +1,8 @@
 import random
 import matplotlib.pyplot as plt
 import numpy as np
+from tensorflow.keras.preprocessing import image
+from tensorflow.keras.preprocessing.image import ImageDataGenerator
 
 # Function to visualize images in a 2-column, 5-row grid layout
 def visualize(images, labels, num_images=10):
