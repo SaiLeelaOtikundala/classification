@@ -1,6 +1,8 @@
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
+from sklearn.metrics import accuracy_score, confusion_matrix
+import seaborn as sns
 
 def evaluate_model(y_true, y_pred, class_names=None):
     """
