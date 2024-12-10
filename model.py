@@ -23,7 +23,6 @@ model.compile(optimizer='adam',
               loss='categorical_crossentropy',
               metrics=['accuracy'])
 
-# Train the model
-history = model.fit(x_train, y_train, epochs=15, batch_size=64, validation_data=(x_test, y_test))
+
 
 
