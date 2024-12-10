@@ -8,6 +8,7 @@ from tensorflow.keras import layers,models
 from tensorflow.keras.datasets import cifar10
 from tensorflow.keras.preprocessing import image
 
+
 # Function to visualize images with true and predicted labels (displaying integer labels)
 def visualize_predictions(images, true_labels, predicted_labels, num_images=10):
     # Ensure num_images does not exceed the number of available test images
