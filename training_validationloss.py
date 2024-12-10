@@ -1,4 +1,8 @@
 import matplotlib.pyplot as plt
+
+# Train the model
+history = model.fit(x_train, y_train, epochs=15, batch_size=64, validation_data=(x_test, y_test))
+
 # Plotting training & validation loss
 plt.figure(figsize=(12, 6))
 # Plot the loss
