@@ -28,10 +28,13 @@ model = models.Sequential([
     layers.Dense(128, activation='relu'),
     layers.Dense(10, activation='softmax')  # 10 classes for CIFAR-10
 ])
+# Summary of the model architecture
+model.summary()
 
-# Compile and train the model
-model.compile(optimizer='adam', loss='categorical_crossentropy', metrics=['accuracy'])
-history = model.fit(x_train, y_train, epochs=15, batch_size=64, validation_data=(x_test, y_test))
+# Compile the model
+model.compile(optimizer='adam',
+              loss='categorical_crossentropy',
+              metrics=['accuracy'])
 
 
 # Function to visualize images with true and predicted labels (displaying integer labels)
