@@ -2,6 +2,9 @@ import numpy as np
 import pandas as pd
 import tensorflow as tf
 from tensorflow.keras import layers,models
+from tensorflow import keras
+from sklearn.model_selection import train_test_split
+from tensorflow.keras.utils import to_categorical
 
 # Build the CNN model
 model = models.Sequential([
