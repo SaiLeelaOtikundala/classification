@@ -36,6 +36,7 @@ model.compile(optimizer='adam',
               loss='categorical_crossentropy',
               metrics=['accuracy'])
 
+history = model.fit(x_train, y_train, epochs=15, batch_size=64, validation_data=(x_test, y_test))
 
 # Function to visualize images with true and predicted labels (displaying integer labels)
 def visualize_predictions(images, true_labels, predicted_labels, num_images=10):
